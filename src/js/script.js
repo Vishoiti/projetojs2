@@ -24,3 +24,12 @@ console.log(text2)
 // JOIN - JUNTA TUDO EM UMA UNICA STRING
 const texto3 = text2.join(" ");
 console.log(texto3)
+// Metodo tofixed
+
+
+const precoProduto=199.99;
+const desconto=0.15; //15%
+const precoFinal=precoProduto *(1-desconto);
+console.log(precoFinal);
+//`` - Template string - concatenação
+console.log(`R$ ${precoFinal.toFixed(2)}`);
