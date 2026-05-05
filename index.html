@@ -9,20 +9,20 @@
 </head>
 <body>
     <header>
-        <h2 id="titulo">titulo original</h2>
-        <h1>Meu App Produtos</h1>
+        <h1 id="titulo">titulo original</h1>
+        <h2>Meu App Produtos</h2>
     </header>
     <main class="container">
-        <div class="bns">
-            <button onclick="todosProdutos()">Mostrar Todos(Map)</button>    
-            <button onclick="Filtrarpromocoes()">apenas promoçoes (filter)</button>
-            <buttonon click="calulartotal()">Mostrar Todos(Map)</buttonon>
-
-
-
+        <div class="btns">
+            <button onclick="todosProdutos(produtos)">Mostrar Todos(Map)</button>    
+            <button onclick="filtrarPromocoes()">apenas promoçoes (filter)</button>
+            <button onclick="calculartotal()">Calcular total (reduce)</button>
         </div>
+
+        <div id="listar-produtos" class="produtos"></div>
+        <div id="resultado-total"></div>
+
     </main>
-<h1 id="titulo">titulo original</h1>
 
     <!-- JS EXTERNO  -->
     <script src="./src/js/script.js"></script>
