@@ -39,6 +39,8 @@ console.log(`R$ ${precoFinal.toFixed(2)}`);
 
 const titulo=document.getElementById("titulo")
 
-Titulo.innerText= "o DOM mudou o texto";
+titulo.innerText= "o DOM mudou o texto";
 
 titulo.style.color="blue";
+
+
